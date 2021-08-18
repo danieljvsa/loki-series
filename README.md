@@ -34,7 +34,7 @@ O 5º desafio feito pela Codelândia, destina-se a dar o próximo passo em rela�
 
 Este é um projeto desenvolvido durante os dias 15 a 21 de Agosto de 2021.
 
-Site disponivel na [Demo](https://gallant-wiles-6f540c.netlify.app/)
+Site disponivel na [Demo](https://adoring-kilby-e05a3a.netlify.app/)
 
 ## 🔖 Layout
 
