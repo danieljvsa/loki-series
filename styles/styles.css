@@ -1,0 +1,290 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input {
+  border: 0;
+}
+
+button:focus,
+input:focus {
+  border: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --dark: #131318;
+  --orange: #FFA800;
+  --blue: #0072D2;
+}
+
+.container {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("/asssets/fundo.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/asssets/fundo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: var(--white);
+}
+
+.container .containerHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 121px;
+  font-family: 'B612', sans-serif;
+  text-transform: uppercase;
+}
+
+.container .containerHeader p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-box-shadow: 0px 4px 4px 0px #00000040;
+          box-shadow: 0px 4px 4px 0px #00000040;
+  margin-bottom: 35px;
+}
+
+.container .containerHeader h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+}
+
+.container .containerMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .containerMain .mainImg {
+  margin-right: 73px;
+}
+
+.container .containerMain .mainImg img {
+  height: 267px;
+  width: 184px;
+  border-radius: 20px;
+}
+
+.container .containerMain .mainContent {
+  font-family: 'B612', sans-serif;
+}
+
+.container .containerMain .mainContent p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 35px;
+}
+
+.container .containerMain .mainContent .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 35px;
+}
+
+.container .containerMain .mainContent .info .infoTime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'B612', sans-serif;
+}
+
+.container .containerMain .mainContent .info .infoTime p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin: 0;
+}
+
+.container .containerMain .mainContent .info .infoTime img {
+  height: 30px;
+  width: 30px;
+}
+
+.container .containerMain .mainContent .info .year {
+  font-family: 'B612', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 5px;
+}
+
+.container .containerMain .mainContent .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .containerMain .mainContent .buttons button {
+  padding: 15px 25px;
+  font-family: 'B612', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--white);
+  margin-right: 21px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.container .containerMain .mainContent .buttons button a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.container .containerMain .mainContent .buttons .trailer {
+  border: 1px solid #FFFFFF;
+  background-color: var(--dark);
+}
+
+.container .containerMain .mainContent .buttons .trailer:hover {
+  background-color: var(--blue);
+}
+
+.container .containerMain .mainContent .buttons .assist {
+  background-color: var(--blue);
+}
+
+.container .containerMain .mainContent .buttons :hover {
+  background-color: var(--dark);
+}
+
+@media (max-width: 1050px) {
+  .containerMain {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    margin: 0 20px !important;
+  }
+  .containerMain .mainImg {
+    margin-right: 0 !important;
+    margin-bottom: 35px !important;
+  }
+  .buttons {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .containerHeader {
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .containerHeader {
+    margin: 20px !important;
+  }
+  .containerHeader p {
+    font-size: 18px !important;
+  }
+  .containerHeader h1 {
+    font-size: 72px !important;
+    margin-bottom: 20px !important;
+  }
+  .mainContent p {
+    font-size: 18px !important;
+  }
+  .mainContent .infoTime p {
+    font-size: 18px !important;
+  }
+  .mainContent .year {
+    font-size: 18px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
